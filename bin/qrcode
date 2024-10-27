@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "tmpdir"
+
+dir = Dir.mktmpdir("qrcodes-", "tmp")
+puts File.join(dir, "foo.png")
+
+system("qrencode", "--output=#{File.join(dir, "foo.png")}",
+                   "--level=Q",
+                   "--background=FFFFFF",
+                   "--foreground=000000",
+                   "--type=PNG",
+                   "--dpi=300",
+                   "https://github.com/soulim/bearinmind")
