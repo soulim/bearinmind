@@ -36,11 +36,12 @@ The turn evaluation:
   If the player decides to take open cards as a match, they are allowed to turn two more cards.
   This continues until the player fails to find a match.
 
-  > [!NOTE]
-  > If a decision to take open cards as a match leads to a situation when only one card of a group left unopened, that card becomes *an obstacle*.
-  > When later someone opens an obstacle card, the turn ends and the card goes out of the game.
-
   If the player decides to risk and open one more card, the turn evaluation starts again.
+
+> [!NOTE]
+> If a decision to take open cards as a match leads to a situation when only one card of a group left unopened, that card becomes *an obstacle*.
+> When later someone opens an obstacle card, the turn ends and the card goes out of the game.
+
 
 ### End of the game
 
